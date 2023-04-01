@@ -25,7 +25,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -37,7 +36,7 @@ h1 {
 }
 
 .card {
-  padding: 2em;
+  margin: 2em;
 }
 
 #app {
