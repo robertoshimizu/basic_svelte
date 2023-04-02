@@ -73,6 +73,22 @@ We use the same braces `{}` syntax for both cases. Notice the case for `{href}`,
 </main>
 ```
 
+## Bind Values
+
+```typescript
+<script lang="ts">
+  let value = 'antonio';
+</script>
+
+<input type="text" bind:value={value}>
+```
+
+Short version
+
+```typescript
+<input type="text" bind:value>
+```
+
 ## Technical considerations
 
 **Why use this over SvelteKit?**
